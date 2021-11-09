@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    background-image: url(pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-size: contain;
     position: absolute;
     width: 1350px;
