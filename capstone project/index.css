@@ -1,0 +1,96 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 1440px){
+body{
+   width: auto;
+   height: auto;
+   font-family: 'Red hat display', sans-serif;
+}
+
+.container{
+    background-image: url(pattern-background-desktop.svg);
+    background-size: contain;
+    position: absolute;
+    width: 1350px;
+    height: 600px;
+}
+.order-tab{
+    background-color: #ffff;
+    width: 350px;
+    max-height: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 550px;
+    
+}
+.order-tab .illustration img{
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;   
+}
+.plan-tab{
+    border: 1px;
+    background-color: hsl(225, 100%, 98%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+p{
+    font-size: 16px;
+}
+.order-tab p{
+    color: hsl(224, 23%, 55%);
+}
+ul{
+    list-style-type: none;
+    margin-right: 40px;
+    margin-left: -60px;
+}
+.plan-tab img{
+    height: 40px;
+    margin-top: 10px;
+    width: 30px;
+    
+}
+.plan-tab a{
+    margin-top: 25px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: small;
+}
+ button{
+     border: 1px ;
+     border-radius: 10px;
+     width: 300px ;
+     height: 40px;
+     font-weight: 700;
+     color: #ffff;
+     background-color: hsl(245, 75%, 52%);
+ }
+ .cancel-order a{
+     color: hsl(224, 23%, 55%);
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 16px;
+ }
+ button:active{
+     background-color: hsl(245, 75%, 70%);
+     cursor: pointer;
+ }
+ .cancel-order a:active{
+     color: hsl(223, 47%, 23%);
+     cursor: pointer;
+ }
+ .plan-tab a:active{
+     color: hsl(245, 75%, 70%);
+     cursor: pointer;
+     text-decoration: none;
+ }
+}
