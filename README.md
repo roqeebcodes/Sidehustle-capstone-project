@@ -1,2 +1,2 @@
 # Sidehustle-capstone-project
-This is a project assigned to me and my team members from SideHusle Internship
+An Order Page clone project from SideHusle Internship
